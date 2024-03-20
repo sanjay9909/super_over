@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    font-family: sans-serif;
+    background: url("https://e0.pxfuel.com/wallpapers/918/838/desktop-wallpaper-big-start-to-the-big-dance-cricket-ground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 650px;
+    width: 1200px;
+    background-color: rgba(0, 0, 0, 0.689);
+    border-radius: 40px;
+}
+.header{
+    padding: 20px;
+    font-size: 40px;
+}
+.images{
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ratio{
+    font-size: 28px;
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+img{
+    width: 450px;
+    border-radius: 50%;
+    border: 3px solid rgb(154, 82, 56);
+}
+.buttons{
+    margin-top: 2.5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fbtn,.rbtn{
+    height: 30px;
+    border-radius: 50px;
+    font-size: 25px;
+    text-align: center;
+    background-color: purple;
+    width: 400px;
+}
+.csk-btn,.rcb-btn{
+    height: 35px;
+    border-radius: 50px;
+    font-size: 25px;
+    text-align: center;
+    background-color: purple;
+    width: 400px;
+    color: white;
+    border-style: none;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.fbtn{
+    margin-left: -3%;
+}
+.rbtn{
+    margin-right: -5%;
+}
+.m-1,.m-3 div{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(236, 102, 54);
+}
+.ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.ful, .sul{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+.ful{
+    margin-left: 7%;
+}
+.sul{
+    margin-right: 7%;
+}
+.draw{
+    color: white;
+}
+.csk-wins{
+    color: yellow ;
+}
+.rcb-wins{
+    color: red ;
+}
